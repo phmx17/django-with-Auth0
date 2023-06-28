@@ -33,9 +33,7 @@ ALLOWED_HOSTS = []
 AUTH_USER_MODEL = 'feedapp.User'
 # Auth0 settings
 SOCIAL_AUTH_TRAILING_SLASH = False  # Remove trailing slash from routes
-SOCIAL_AUTH_AUTH0_DOMAIN = 'dev-b0rp0hhce7pyv1ue.us.auth0.com'
-SOCIAL_AUTH_AUTH0_KEY = 'eXzQ190piXiW2RZJdoDWBHJavAglNOQ7'
-SOCIAL_AUTH_AUTH0_SECRET = 'LxHj08UF_8B2GZtMDz9WMhK_HyCKNCXudhNUyfkAb1gYx7b7HnOdYOEsOtzHUifI'
+
 SOCIAL_AUTH_AUTH0_SCOPE = [
     'openid',
     'profile',
