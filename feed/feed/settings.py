@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-vq#fnhk!mx$d$4h9niogx+qwo53k4&7qa*3)7v1(etwcx7z@se"
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -33,9 +33,7 @@ ALLOWED_HOSTS = []
 AUTH_USER_MODEL = 'feedapp.User'
 # Auth0 settings
 SOCIAL_AUTH_TRAILING_SLASH = False  # Remove trailing slash from routes
-SOCIAL_AUTH_AUTH0_DOMAIN = 'dev-b0rp0hhce7pyv1ue.us.auth0.com'
-SOCIAL_AUTH_AUTH0_KEY = 'eXzQ190piXiW2RZJdoDWBHJavAglNOQ7'
-SOCIAL_AUTH_AUTH0_SECRET = 'LxHj08UF_8B2GZtMDz9WMhK_HyCKNCXudhNUyfkAb1gYx7b7HnOdYOEsOtzHUifI'
+
 SOCIAL_AUTH_AUTH0_SCOPE = [
     'openid',
     'profile',
